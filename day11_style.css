@@ -1,0 +1,55 @@
+.head {
+    background-color: red;
+    padding: 10px;
+}
+
+.mid {
+    background-color: transparent;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.bg {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.ab {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+}
+.heading {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    margin-left: 80px;
+    margin-right: 80px;
+}
