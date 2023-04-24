@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="day_23.jss"></script>
+</head>
+<body>
+    <form action="" onsubmit="submitted()" method="post">
+    <h3 id="h">Hello</h3>
+    <input type="number" name="change" />
+    <input type="submit"/>
+    <button onclick="col()" class="btn">click</button>
+    <button type="reset" onclick="re()">Reset</button>
+</form>
+<script>
+    const submitted= function() {
+    var ele = document.getElementsByName('change')
+    var ne = ele.value;
+    if(ne.length != 10){
+       alert("cant be empty");
+    }else if(ne.length >=10){
+        alert("sucessfully submitted")
+    }
+}
+</script>
+    
+</body>
+</html>
